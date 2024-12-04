@@ -1,0 +1,15 @@
+[project]
+name = "manim-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "manimgl",
+    "pyrr>=0.10.3",
+    "setuptools>=75.6.0",
+]
+
+[tool.uv.sources]
+manimgl = { git = "https://github.com/3b1b/manim.git" }
